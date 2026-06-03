@@ -32,7 +32,7 @@ function App() {
         <div className="heroOverlay" />
         <div className="heroContent">
           <p className="eyebrow">Hơn 1.000 đầu sách cũ & sách quý</p>
-          <h1>Nhặt được báu giữa những trang sách cũ</h1>
+          <h1>Nơi ta nhặt được báu vật giữa những trang sách cũ</h1>
           <p>
             Kho sách chính kết hợp mạng lưới người yêu sách, nhà sưu tầm và kho sách liên kết —
             giúp bạn tìm lại những cuốn sách có giá trị sử dụng, ứng dụng và lưu giữ theo thời gian.
