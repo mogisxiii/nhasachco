@@ -11,7 +11,7 @@ const categories = [
 
 const rareBooks = [
   { title: "Việt Nam Sử Lược", rank: "SS", image: "/images/book-rare-01.jpg" },
-  { title: "Quốc Văn Giáo Khoa Thư", rank: "SSS", image: "/images/book-rare-02.jpg" },
+  { title: "Quốc Văn Giáo Thư", rank: "SSS", image: "/images/book-rare-02.jpg" },
   { title: "Tâm Lý Học Đám Đông", rank: "S", image: "/images/book-rare-03.jpg" },
   { title: "Sách Đông Y Cổ", rank: "SS", image: "/images/book-rare-04.jpg" },
 ];
@@ -55,7 +55,7 @@ function App() {
       <section id="categories" className="section">
         <div className="sectionHead">
           <p className="eyebrow">Danh mục chính</p>
-          <h2>Bạn đang tìm dòng sách nào?</h2>
+          <h2>Bạn tìm dòng sách nào?</h2>
         </div>
 
         <div className="categoryGrid">
@@ -74,7 +74,7 @@ function App() {
       <section id="rare" className="section rareSection">
         <div className="sectionHead">
           <p className="eyebrow">Top sách quý</p>
-          <h2>Xếp hạng theo giá trị tri thức</h2>
+          <h2>Phân hạng giá trị tri thức</h2>
           <p className="short">
             Không chỉ theo giá bán — mà theo độ hiếm, giá trị học thuật, giá trị ứng dụng và sức ảnh hưởng.
           </p>
@@ -158,8 +158,8 @@ function App() {
 </section>
 
       <section className="finalCta">
-        <h2>Bạn đang tìm một cuốn sách?</h2>
-        <p>Nếu đó là “báu vật” của bạn, hãy để chúng tôi thử tìm lại giúp bạn.</p>
+        <h2>Bạn đang tìm sách?</h2>
+        <p>Nếu đó là “báu vật” của bạn, hãy cho chúng tôi cơ hội tìm giúp bạn.</p>
         <a className="btn primary" href="https://zalo.me/" target="_blank" rel="noreferrer">
           Gửi yêu cầu tìm sách
         </a>
